@@ -1,0 +1,105 @@
+
+body{
+    background-image: url("https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+  background-size: cover;
+ 
+ }
+ 
+.main_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ #survey-form{
+   height:130%;
+   width: 50%;
+
+ }
+ 
+ form p{
+   margin:9px auto;
+ }
+ 
+ #title{
+  text-shadow: 1px 1px 3px rgba(0, 255, 255, 1);
+ }
+ #title,p{
+ margin: 1em auto;
+   text-align: center;
+ 
+ }
+ 
+ p,input{
+   text-shadow: 1px 1px 3px rgba(0, 255, 255, 1);;
+ }
+ 
+ #description{
+   position:relative;
+   bottom:13px;
+   color:rgba(255,255,255,0.6);
+ text-shadow: 1px 1px 3px rgba(0, 255, 255, 1);;
+ }
+ 
+ form{
+   background:rgba(0, 255, 255, 0.2);
+     padding: 2.5rem 0.625rem;
+     border-radius: 0.25rem;
+ }
+ 
+ 
+ 
+ input{
+  margin: 10px 0 0 0;
+   width: 100%;
+   min-height: 2em;
+ }
+ 
+ 
+ #dropdown{
+   margin:15px 0px 0px ;
+ }
+ 
+ fieldset{
+   border: 2px solid black;
+   margin-top:20px;
+ 
+ }
+ 
+ .first-check{
+   margin-top:30px;
+   
+ }
+ .second-check{
+   margin-top:30px;
+   
+ }
+ 
+ h2{
+   text-align:center;
+   margin-bottom:-20px;
+ }
+ 
+ .food-q{
+   margin-top:20px;
+   margin-bottom:-10px;
+ }
+ 
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+
+ #bio{
+   margin-top:40px;
+}
+ .last-para{
+   margin-top:20px;
+   margin-bottom:-20px;
+ }
+ #submit{
+   background-color:rgba(0, 255, 255, 0.8);
+ padding:8px;
+ margin-top:30px;
+ }

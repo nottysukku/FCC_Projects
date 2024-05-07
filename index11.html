@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+<link rel="stylesheet" href="styles11.css">
+</head>
+<body>
+ 
+    <h1 id="title">Survey Form</h1>
+    <p id="description">(This is a basic Survey Form)</p>
+    <div class="main_content">
+    <form id="survey-form">
+
+ <label id="name-label"><p>Enter Your Name</p><input id="name" placeholder="Write Name Here" type="text" required></label>
+
+
+        <label id="email-label"><p>Enter Your Email</p><input id="email" placeholder="Write Email Here" type="email" required></label>
+
+
+        <label id="number-label"><p>Enter Your Age</p><input id="number" placeholder="Write Age Here" type="number" required min="13" max="120"></label>
+
+
+        <select id="dropdown">
+          <option value="">
+           Select Gender
+            </option>
+          <option value="1">
+            Male
+            </option>
+          <option>
+            Female
+            </option value="2">
+          </select> 
+          
+          <fieldset>
+<p>What is your eating style?</p>
+<br>
+<p>Vegetarian</p>
+
+<input type="radio" value="Vegetarian" name="diet" checked>
+<p>Non-Vegetarian</p>
+<input type="radio" value="Non-Vegetarian" name="diet">
+</fieldset>
+<fieldset>
+<p class="food-q">Which Food?</p>
+<h2>Burger</h2>
+<input class="first-check" type="checkbox" value="BURGER">
+<h2>Pizza</h2>
+<input class="second-check" type="checkbox" value="PIZZA">
+</fieldset>
+<p class="last-para">Write Something About Yourself....</p>
+<div class="textarea">
+<textarea id="bio" name="bio" rows="10" cols="39" placeholder="I like coding on the beach..."></textarea>
+</div>
+ <input id="submit" type="submit" value="Submit" />
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+   
+    background-image: linear-gradient(90deg,skyblue,white,
+    rgb(0,0,244,0.3)); 
+  
+  }
+  
+  
+  .father{
+    display:flex;
+    
+  }
+  
+  .left-part{
+  width:20vw;
+  border:2px solid rgba(0,0,255,0.3);
+  height:370vh;
+  position:fixed;
+  z-index:999;
+  background-color:#6F8FAF;
+  }
+  
+  
+  
+  
+  header{
+    margin-top:-70px;
+  }
+  
+  a{
+    margin-bottom:60px;
+    position:relative;
+    left:10px;
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+  }
+  a:hover{
+    background-color:gray;
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+    border-radius:100px;
+  }
+  
+  #navbar{
+    display:flex;
+  flex-direction:column;
+  align-items:left;
+  
+  }
+  
+  .first-nav{
+    display:none;
+  }
+  
+  img{
+    display:block;
+  margin:auto;
+  margin-bottom:10px;
+  max-width:400px;
+  }
+  p{
+  
+  font-size:17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  #main-doc{
+  
+  
+    
+  border:2px solid rgba(0,0,255,0.3);
+    
+   /* position:absolute; */
+   margin-left:10px;
+  }
+  
+  
+  .main-section{
+    
+     padding-top: 100px;
+    margin-left: 20vw; 
+  }
+  
+  
+  header{
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:10px;
+  }
+  
+  
+  code {
+     
+    background-color: rgba(128,128,128,0.3);
+  
+  }
+  
+  .dora-code{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      color: #333;
+      background-color: rgba(128,128,128,0.3);
+      padding: 4px 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  
+  .last-heading{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:5px;
+    color:red;
+  }
+  
+  .last-heading-text{
+    text-align:center;
+  
+  margin-bottom:10px;
+  }
+  
+  @media (max-width:600px){
+    .left-part{
+      display:none;
+    }
+    
+    .father{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+   .dora-code{
+      display:flex;
+        justify-content:center;
+      align-items:center;
+      font-size:11px;
+    }
+   
+  }
+  
+  
+  
